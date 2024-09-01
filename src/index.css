@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  color: rgb(153, 113, 234);
+  color: black;
+  gap: 10px;
+  flex-direction: column;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateReverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.gridContainer {
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: repeat(2, 1fr);
+  gap: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+h3 {
+  font-weight: 300;
+  color: grey;
+  color: rgb(50, 50, 50);
+}
