@@ -13,7 +13,7 @@
   height: 100dvh;
   color: rgb(153, 113, 234);
   color: black;
-  gap: 10px;
+  gap: 20px;
   flex-direction: column;
 }
 
